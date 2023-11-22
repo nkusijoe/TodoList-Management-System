@@ -9,8 +9,22 @@
 <body>
     <div id="app">
         <!-- Task input and submit button -->
-        <input type="text" id="taskInput" placeholder="Add a new task...">
+        <input type="text" id="taskTitleInput" placeholder="Title">
+        <input type="text" id="taskDescriptionInput" placeholder="Description">
+        <input type="date" id="taskDueDateInput">
+        <select id="taskPriorityInput">
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </select>
+        <input type="text" id="taskCategoryInput" placeholder="Category">
+        <select id="taskStatusInput">
+            <option value="Todo">Todo</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Done">Done</option>
+        </select>
         <button onclick="addTask()">Submit</button>
+
     </div>
     <div id="app">
         <!-- To-Do List -->
@@ -30,7 +44,7 @@
         </table>
     </div>
 
-    <script src="/app.js"></script>
-    <script src="/styles.js"></script>
+    <script src="/public/app.js"></script>
+    <script src="/public/styles.css"></script>
 </body>
 </html>

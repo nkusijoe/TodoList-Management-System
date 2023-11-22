@@ -1,0 +1,21 @@
+{
+  "name": "todolist-management-system",
+  "version": "1.0.0",
+  "description": "In a world increasingly reliant on technology, the ability to create efficient and user-friendly web applications is a valuable skill for any aspiring developer. To put your skills to the test, we present you with a coding challenge: Build a To-Do List Application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
